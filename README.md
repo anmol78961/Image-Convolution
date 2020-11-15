@@ -9,7 +9,7 @@
 
 ## About Extended Convolution
 - The first part is Border Handling:
--> The code centre's the filtered image (so that the content of the input and filtered images is not shifted between them), and then fill in the border regions by extending/replicating the edge pixels of the image (‘clamp-to-edge’).
+The code centre's the filtered image (so that the content of the input and filtered images is not shifted between them), and then fill in the border regions by extending/replicating the edge pixels of the image (‘clamp-to-edge’).
 
 - The second part is Image Filtering:
--> It demonstrate's 3×3 convolution kernels for computing horizontal, vertical and (any) diagonal image gradients, and sharpening an image using unsharp masking. It also implements a Gaussian low-pass filtering from scratch, which includes a 5×5 kernel and a standard deviation of 1 pixel.
+It demonstrate's 3×3 convolution kernels for computing horizontal, vertical and (any) diagonal image gradients, and sharpening an image using unsharp masking. It also implements a Gaussian low-pass filtering from scratch, which includes a 5×5 kernel and a standard deviation of 1 pixel.
